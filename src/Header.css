@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  margin-bottom: 50px;
+}
+
+.logo-amazon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.amazon-logo-box {
+  display: flex;
+
+  min-width: 60px;
+  max-width: 100px;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.input-nav-icon {
+  background-color: #ff9900 !important;
+  height: 22px;
+  width: 90%;
+}
+
+.text-box {
+  display: flex;
+  flex: 2;
+  align-items: center;
+
+  margin-left: 10px;
+}
+
+.input-search {
+  width: 100%;
+  min-width: 100px;
+  height: 19px;
+}
+.header-nav {
+  display: flex;
+
+  flex: 1;
+  justify-content: space-evenly;
+}
+.header-option {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  align-items: center;
+}
+
+.one-nav {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.Two-nav {
+  font-size: 8px;
+  font-weight: 1000;
+  white-space: nowrap;
+}
+.ShoppingBasketIcon {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ShoppingBasketIcon1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
